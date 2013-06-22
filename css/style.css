@@ -1,4 +1,3 @@
-/* Website template by freewebsitetemplates.com */
 @font-face {
 	font-family: 'OpenSans';
 	src: url('../fonts/OpenSans-Regular.eot');
@@ -188,11 +187,11 @@ p {
 p a, li a {
 	color: #585858;
 }
-#tagline h1 {
+#tagline h1, #tagline1 h1, #tagline2 h1, #tagline3 h1, #tagline4 h1, #tagline5 h1 {
 	margin-left: 20px;
 	margin-top: 20px;
 }
-#tagline > div {
+#tagline > div, #tagline1 > div, #tagline2 > div, #tagline3 > div, #tagline4 > div, #tagline5 > div {
 	float: left;
 	width: 400px;
 	margin: 0 20px;

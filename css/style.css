@@ -187,6 +187,9 @@ p {
 p a, li a {
 	color: #585858;
 }
+p a:hover, li a:hover {
+	color: #000000;
+}
 #tagline h1, #tagline1 h1, #tagline2 h1, #tagline3 h1, #tagline4 h1, #tagline5 h1 {
 	margin-left: 20px;
 	margin-top: 20px;
@@ -195,6 +198,9 @@ p a, li a {
 	float: left;
 	width: 400px;
 	margin: 0 20px;
+}
+#tagline3 img:hover {
+	opacity: 0.8;
 }
 #contents .features {
 	width: 810px;
